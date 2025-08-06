@@ -283,7 +283,7 @@ export default function Home() {
               <h1 className="font-headline text-6xl md:text-8xl font-extrabold text-foreground">
                 Ramiza Ohe
               </h1>
-              <p className="mt-2 text-xl md:text-2xl font-semibold italic bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">
+              <p className="mt-2 text-xl md:text-2xl font-semibold italic bg-gradient-to-r from-blue-400 to-blue-800 text-transparent bg-clip-text">
                 Professional Assignment Writer
               </p>
               <div className="mt-12 mb-8">
