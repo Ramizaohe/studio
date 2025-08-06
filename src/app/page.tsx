@@ -281,7 +281,7 @@ export default function Home() {
                 “While You Progress in Life, I’ll Progress Your Assignments”
               </p>
               <h1 className="font-headline text-6xl md:text-8xl font-extrabold text-foreground">
-                Muhil Hadi
+                Ramiza Ohe
               </h1>
               <p className="mt-2 text-xl md:text-2xl text-muted-foreground font-semibold italic">
                 Professional Assignment Writer
@@ -291,7 +291,7 @@ export default function Home() {
                   <div className="relative w-full h-full rounded-full p-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">
                     <Image
                       src="https://i.imgur.com/QllfG6k.jpeg"
-                      alt="Muhil Hadi"
+                      alt="Ramiza Ohe"
                       width={320}
                       height={320}
                       className="rounded-full object-cover w-full h-full"
@@ -504,10 +504,10 @@ export default function Home() {
               Success Stories from Students Using Our Service
             </p>
             <div className="mt-12 w-full overflow-hidden">
-                <div className="flex animate-marquee-full hover:[animation-play-state:paused]">
+                <div className="flex animate-marquee hover:[animation-play-state:paused]">
                     {[...testimonials, ...testimonials].map((testimonial, index) => (
-                      <div key={index} className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-2">
-                        <Card className="p-6 rounded-xl shadow-lg h-[280px] flex flex-col">
+                      <div key={index} className="flex-shrink-0 w-[90vw] md:w-[45vw] lg:w-[30vw] p-2">
+                        <Card className="p-6 rounded-xl shadow-lg h-[220px] w-full flex flex-col">
                             <CardContent className="p-0 flex flex-col h-full">
                             <div className="flex items-center mb-4">
                                 <Avatar className="h-14 w-14 mr-4 border-2 border-primary">
@@ -605,9 +605,11 @@ export default function Home() {
 
       <footer className="bg-accent text-accent-foreground py-6">
         <div className="container mx-auto px-4 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Muhil Hadi. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ramiza Ohe. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
   );
 }
+
+    

@@ -31,7 +31,7 @@ export function ContactForm() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     const phoneNumber = '8801627145339'; // The number from the prompt
-    let text = `Hello Muhil.\n\n`;
+    let text = `Hello Ramiza.\n\n`;
 
     if (values.deadline) {
       text += `My deadline is ${format(values.deadline, "PPP")}.\n\n`;
@@ -138,3 +138,5 @@ export function ContactForm() {
     </Form>
   );
 }
+
+    
