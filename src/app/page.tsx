@@ -254,8 +254,8 @@ const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
   );
 
 const socialLinks = [
-  { name: 'whatsapp', icon: WhatsappIcon, href: 'https://wa.me/qr/S4BGHXIR6WOKN1', 'aria-label': 'WhatsApp', color: 'text-green-500', glowColor: 'var(--glow-green)' },
-  { name: 'facebook', icon: Facebook, href: 'https://www.facebook.com/muhil.hadi.2024', 'aria-label': 'Facebook', color: 'text-blue-600', glowColor: 'var(--glow-blue)' },
+  { name: 'whatsapp', icon: WhatsappIcon, href: 'https://wa.me/qr/YOHKYEPCSELLH1', 'aria-label': 'WhatsApp', color: 'text-green-500', glowColor: 'var(--glow-green)' },
+  { name: 'facebook', icon: Facebook, href: 'https://www.facebook.com/ramiza.zahin.ohi.2025', 'aria-label': 'Facebook', color: 'text-blue-600', glowColor: 'var(--glow-blue)' },
   { name: 'email', icon: Mail, href: 'mailto:assignmentyess@gmail.com', 'aria-label': 'Gmail', color: 'text-red-600', glowColor: 'var(--glow-red)' },
 ];
 
@@ -314,11 +314,11 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
                 <div className="flex flex-col items-center gap-2">
                   <Button asChild size="lg" className="bg-[#25D366] hover:bg-[#1EBE57] text-white font-bold transition-transform transform hover:scale-105">
-                    <Link href="https://wa.me/qr/S4BGHXIR6WOKN1" target="_blank">
+                    <Link href="https://wa.me/qr/YOHKYEPCSELLH1" target="_blank">
                       Hire Me
                     </Link>
                   </Button>
-                  <Link href="https://wa.me/qr/S4BGHXIR6WOKN1" target="_blank" aria-label="WhatsApp">
+                  <Link href="https://wa.me/qr/YOHKYEPCSELLH1" target="_blank" aria-label="WhatsApp">
                     <div className="w-10 h-10 bg-[#25D366] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
                       <WhatsappIcon className="w-6 h-6 text-white" />
                     </div>
@@ -326,11 +326,11 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center gap-2">
                   <Button asChild size="lg" className="bg-[#1877F2] hover:bg-[#166FE5] text-white font-bold transition-transform transform hover:scale-105">
-                    <Link href="https://www.facebook.com/muhil.hadi.2024" target="_blank">
+                    <Link href="https://www.facebook.com/ramiza.zahin.ohi.2025" target="_blank">
                       Hire Me
                     </Link>
                   </Button>
-                  <Link href="https://www.facebook.com/muhil.hadi.2024" target="_blank" aria-label="Facebook">
+                  <Link href="https://www.facebook.com/ramiza.zahin.ohi.2025" target="_blank" aria-label="Facebook">
                     <div className="w-10 h-10 bg-[#1877F2] rounded-full flex items-center justify-center hover:opacity-80 transition-opacity">
                       <Facebook className="w-6 h-6 text-white" />
                     </div>
@@ -504,7 +504,7 @@ export default function Home() {
               Success Stories from Students Using Our Service
             </p>
             <div className="mt-12 w-full overflow-hidden">
-                <div className="flex animate-marquee hover:[animation-play-state:paused]">
+                <div className="flex animate-marquee-full hover:[animation-play-state:paused]">
                     {[...testimonials, ...testimonials].map((testimonial, index) => (
                       <div key={index} className="flex-shrink-0 w-[90vw] md:w-[45vw] lg:w-[30vw] p-2">
                         <Card className="p-6 rounded-xl shadow-lg h-[220px] w-full flex flex-col">
