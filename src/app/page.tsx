@@ -288,7 +288,7 @@ export default function Home() {
               </p>
               <div className="mt-12 mb-8">
                 <div className="relative w-60 h-60 md:w-80 md:h-80">
-                  <div className="relative w-full h-full rounded-full p-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">
+                  <div className="relative w-full h-full rounded-full p-2 bg-gradient-to-br from-blue-400 to-blue-900 shadow-lg">
                     <Image
                       src="https://i.imgur.com/L1Nq3bI.jpeg"
                       alt="Ramiza Ohe"
