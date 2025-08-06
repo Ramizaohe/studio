@@ -283,7 +283,7 @@ export default function Home() {
               <h1 className="font-headline text-6xl md:text-8xl font-extrabold text-foreground">
                 Ramiza Ohe
               </h1>
-              <p className="mt-2 text-xl md:text-2xl font-semibold italic bg-gradient-to-r from-blue-400 to-blue-800 text-transparent bg-clip-text">
+              <p className="mt-2 text-xl md:text-2xl font-semibold italic bg-gradient-to-r from-blue-900 to-blue-500 text-transparent bg-clip-text">
                 Professional Assignment Writer
               </p>
               <div className="mt-12 mb-8">
@@ -567,8 +567,8 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg text-white">Phone / WhatsApp</h3>
-                    <a href="tel:+8801627145339" className="text-gray-400 hover:text-primary transition-colors">
-                      +8801627145339
+                    <a href="tel:+8801553447005" className="text-gray-400 hover:text-primary transition-colors">
+                      +8801553447005
                     </a>
                   </div>
                 </div>

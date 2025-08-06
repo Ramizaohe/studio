@@ -1,3 +1,4 @@
+
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -30,7 +31,7 @@ export function ContactForm() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const phoneNumber = '8801627145339'; // The number from the prompt
+    const phoneNumber = '8801553447005'; // The number from the prompt
     let text = `Hello Ramiza.\n\n`;
 
     if (values.deadline) {
@@ -138,5 +139,3 @@ export function ContactForm() {
     </Form>
   );
 }
-
-    
