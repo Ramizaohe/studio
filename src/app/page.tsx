@@ -1,4 +1,5 @@
 
+
 'use client';
 
 import { useEffect, useRef } from 'react';
@@ -231,12 +232,12 @@ const testimonials = [
   { name: 'Rumana Tabassum', university: 'National University of Singapore (Singapore)', quote: "I was struggling with my workload and my new marriage, your quick and professional service was a lifesaver. I managed to catch up on all my assignments, and my grades have never been better. Thanks again!", initials: 'RT' },
   { name: 'Mona hossain', university: 'University of Oxford (UK)', quote: "I was so stressed with tight deadlines and my work commitments. Recently I got migraine problem and could not focus at all thanks to you, I could submit my assignments on time and get great marks. Couldn't have done it without you", initials: 'MH' },
   { name: 'Ahmed Khan', university: 'Aga Khan University (Pakistan)', quote: "Assamualikum brother your service was a game-changer for me tbh. I was completely overwhelmed by assignments and work. You helped me get back on track and my grades improved significantly. I truly appreciate your help.", initials: 'AK' },
-  { name: 'Faruq Islam Taj', university: 'University of Sydney (Australia)', quote: "I was about to give up with the heavy workload, you and your team saved me! My assignments were done on time, and my grades were better than I expected. Thanks a lot for everything, youre nothing but an angel bro", initials: 'FT' },
+  { name: 'Faruq Islam Taj', university: 'University of Sydney (Australia)', quote: "I was about to give up with the heavy workload, you and your team saved me! My assignments were done on time, and my grades were better than I expected. Thanks a lot for everything, youre nothing but an angel", initials: 'FT' },
   { name: 'Mia Harris', university: 'University of British Columbia (Canada)', quote: "I was struggling to balance work and school, and your help made a huge difference. You helped me meet deadlines, and my grades improved. I’m so thankful for your support!", initials: 'MH' },
   { name: 'Rakesh Gupta', university: 'Stanford University (USA)', quote: "You took a huge burden off my shoulders! I could finally focus on my personal life and work while you took care of my assignments. It made all the difference. My grades reflect it, too also I recommend every one to take the service", initials: 'RG' },
   { name: 'Sophia Lee', university: 'University of Melbourne (Australia)', quote: "Your service was exactly what I needed. First I was doubting about the authenticity of your works, I was wrong! Balancing work and studying was exhausting. With your help, I completed all my courses with ease and got great grades. I’m so grateful", initials: 'SL' },
   { name: 'Chitrokor Rahman', university: 'University of Manchester (UK)', quote: "I never thought I’d be able to manage my assignments while working part time. Thanks to you, I not only met all deadlines but did so with great results. I couldn't ask for more!", initials: 'CR' },
-  { name: 'Abrar Masum', university: 'University of Melbourne (Australia)', quote: "Thanks bhaiya i was in stress for my part time job and could not focus in my academics at all, for you i have completed all of my courses with very good grades thanks a lot!!", initials: 'AM' },
+  { name: 'Abrar Masum', university: 'University of Melbourne (Australia)', quote: "Thanks apu i was in stress for my part time job and could not focus in my academics at all, for you i have completed all of my courses with very good grades thanks a lot!!", initials: 'AM' },
 ];
 
 const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -610,5 +611,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
