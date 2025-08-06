@@ -290,7 +290,7 @@ export default function Home() {
                 <div className="relative w-60 h-60 md:w-80 md:h-80">
                   <div className="relative w-full h-full rounded-full p-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-600">
                     <Image
-                      src="https://i.imgur.com/QllfG6k.jpeg"
+                      src="https://i.imgur.com/L1Nq3bI.jpeg"
                       alt="Ramiza Ohe"
                       width={320}
                       height={320}
@@ -506,7 +506,7 @@ export default function Home() {
             <div className="mt-12 w-full overflow-hidden">
                 <div className="flex animate-marquee-full hover:[animation-play-state:paused]">
                     {[...testimonials, ...testimonials].map((testimonial, index) => (
-                      <div key={index} className="flex-shrink-0 w-[90vw] md:w-[45vw] lg:w-[30vw] p-2">
+                      <div key={index} className="flex-shrink-0 w-full md:w-1/2 lg:w-[40vw] p-2">
                         <Card className="p-6 rounded-xl shadow-lg h-[220px] w-full flex flex-col">
                             <CardContent className="p-0 flex flex-col h-full">
                             <div className="flex items-center mb-4">
@@ -611,5 +611,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
