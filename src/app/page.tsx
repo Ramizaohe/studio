@@ -206,19 +206,19 @@ const services = [
     title: 'Software Development',
     description: 'Custom software solutions and coding assignments.',
     icon: Code,
-    href: 'https://drive.google.com/drive/folders/1-20QHR29HnoXSwRIn6nXc5KDjue89L5U',
+    href: 'https://drive.google.com/drive/folders/11s7_lpLTVX6j4hj6z_ATzJlMwqQrDn0F?usp=sharing',
   },
   {
     title: 'Web Design',
     description: 'Creative and functional web design services.',
     icon: Globe,
-    href: 'https://drive.google.com/drive/folders/1-28JZn-zjuFbL8lzaT1vaIfLHkjZFkCq',
+    href: 'https://drive.google.com/drive/folders/11s7_lpLTVX6j4hj6z_ATzJlMwqQrDn0F?usp=sharing',
   },
   {
     title: 'Power Bi',
     description: 'Data visualization and business intelligence dashboards.',
     icon: BarChart,
-    href: 'https://drive.google.com/drive/folders/11CHL1C_ldaNMCyzIwi6hl5zo7cyle8Mf',
+    href: 'https://drive.google.com/drive/folders/11s7_lpLTVX6j4hj6z_ATzJlMwqQrDn0F?usp=sharing',
   },
   {
     title: 'Ethical Hacking',
@@ -613,3 +613,4 @@ export default function Home() {
 
 
     
+
