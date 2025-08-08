@@ -192,8 +192,8 @@ const services = [
     href: 'https://drive.google.com/drive/folders/1-L499PhKn-JwUolD4zSa0kHa762UA_3P',
   },
   {
-    title: 'MS Office',
-    description: 'Proficient handling of all Microsoft Office suite applications.',
+    title: 'MS Excel',
+    description: 'Proficient handling of all Microsoft Excel tasks.',
     icon: AppWindow,
     href: 'https://drive.google.com/drive/folders/1-ILsW38aCeLnTf6UL1jl1rIHZbqfkqqA',
   },
@@ -614,6 +614,7 @@ export default function Home() {
 
 
     
+
 
 
 
