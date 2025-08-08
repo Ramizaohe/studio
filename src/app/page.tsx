@@ -44,6 +44,7 @@ import {
   Network,
   BarChart,
   PlusCircle,
+  Fingerprint,
 } from 'lucide-react';
 import { AnimatedCounter } from '@/components/animated-counter';
 import { ContactForm } from '@/components/contact-form';
@@ -220,6 +221,12 @@ const services = [
     href: 'https://drive.google.com/drive/folders/11CHL1C_ldaNMCyzIwi6hl5zo7cyle8Mf',
   },
   {
+    title: 'Ethical Hacking',
+    description: 'Professional ethical hacking services and project assistance.',
+    icon: Fingerprint,
+    href: '#contact',
+  },
+  {
     title: 'And Much More',
     description: "Don't see what you need? Contact me for a custom request.",
     icon: PlusCircle,
@@ -313,20 +320,16 @@ export default function Home() {
                 ))}
               </div>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
-                <div className="flex flex-col items-center gap-2">
-                  <Button asChild size="lg" className="bg-gradient-to-br from-green-400 to-green-600 hover:from-green-500 hover:to-green-700 text-white font-bold transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/50" style={{'--glow-color': 'hsl(var(--neon-green))'} as React.CSSProperties}>
-                    <Link href="https://wa.me/qr/YOHKYEPCSELLH1" target="_blank">
-                      Hire Me
-                    </Link>
-                  </Button>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                  <Button asChild size="lg" className="bg-gradient-to-br from-blue-900 to-blue-700 hover:from-blue-800 hover:to-blue-600 text-white font-bold transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50" style={{'--glow-color': 'hsl(var(--neon-blue))'} as React.CSSProperties}>
-                    <Link href="https://www.facebook.com/ramiza.zahin.ohi.2025" target="_blank">
-                      Hire Me
-                    </Link>
-                  </Button>
-                </div>
+                <Button asChild size="lg" className="bg-gradient-to-br from-green-400 to-green-600 hover:from-green-500 hover:to-green-700 text-white font-bold transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/50" style={{'--glow-color': 'hsl(var(--neon-green))'} as React.CSSProperties}>
+                  <Link href="https://wa.me/qr/YOHKYEPCSELLH1" target="_blank">
+                    Hire Me
+                  </Link>
+                </Button>
+                <Button asChild size="lg" className="bg-gradient-to-br from-blue-900 to-blue-700 hover:from-blue-800 hover:to-blue-600 text-white font-bold transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50" style={{'--glow-color': 'hsl(var(--neon-blue))'} as React.CSSProperties}>
+                  <Link href="https://www.facebook.com/ramiza.zahin.ohi.2025" target="_blank">
+                    Hire Me
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -607,3 +610,6 @@ export default function Home() {
     
 
 
+
+
+    
