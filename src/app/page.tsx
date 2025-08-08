@@ -326,7 +326,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className="flex flex-col items-center gap-2">
-                  <Button asChild size="lg" className="bg-[#1877F2] hover:bg-[#166FE5] text-white font-bold transition-transform transform hover:scale-105">
+                  <Button asChild size="lg" className="bg-gradient-to-br from-blue-900 to-blue-700 hover:from-blue-800 hover:to-blue-600 text-white font-bold transition-transform transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50">
                     <Link href="https://www.facebook.com/ramiza.zahin.ohi.2025" target="_blank">
                       Hire Me
                     </Link>
@@ -615,3 +615,4 @@ export default function Home() {
     
 
     
+
