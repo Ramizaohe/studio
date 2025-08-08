@@ -128,7 +128,7 @@ const majorBenefits = [
     { icon: ShieldCheck, text: 'Free Turnitin Reports Guaranteeing 0% AI & Plagiarism Detection', color: 'hsl(var(--neon-green))' },
     { icon: Target, text: 'In-depth Research & Data-Driven Analytics for Authentic, High-Quality Content', color: 'hsl(var(--neon-red))' },
     { icon: Clock, text: 'Always On-Time — Your Deadlines Are My Priority', color: 'hsl(var(--neon-blue))' },
-    { icon: HeartHandshake, text: '24/7 Friendly Support Designed Especially for Students', color: 'hsl(var(--neon-purple))' },
+    { icon: HeartHandshake, text: '24/7 Fast Response to Supervisor Feedback', color: 'hsl(var(--neon-purple))' },
     { icon: Star, text: 'Top Grades Delivered at a Price Every Student Can Afford', color: 'hsl(var(--primary))' },
     { icon: DraftingCompass, text: 'Proper University Formatting & Referencing', color: 'hsl(var(--neon-cyan))' },
   ];
@@ -614,5 +614,6 @@ export default function Home() {
 
 
     
+
 
 
