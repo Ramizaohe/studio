@@ -314,7 +314,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
                 <div className="flex flex-col items-center gap-2">
-                  <Button asChild size="lg" className="bg-[#25D366] hover:bg-[#1EBE57] text-white font-bold transition-transform transform hover:scale-105">
+                  <Button asChild size="lg" className="bg-gradient-to-br from-green-400 to-green-600 hover:from-green-500 hover:to-green-700 text-white font-bold transition-transform transform hover:scale-105">
                     <Link href="https://wa.me/qr/YOHKYEPCSELLH1" target="_blank">
                       Hire Me
                     </Link>
